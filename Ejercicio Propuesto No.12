@@ -1,1 +1,18 @@
+public class Primeraclase 
+{
+
+	public static void main(String[] args) 
+	{ 
+		//CALCULOS HECHOS SUPONIENDO QUE EL SALARIO ES SEMANAL, YA QUE NO ESPECIFICA EN EL ENUNCIADO.
+		//JUAN FELIPE MIRANDA ARCINIEGAS 1080042208 UNALMED
+		double salariobruto= 5000*48;
+		double retencion= salariobruto*0.125;
+		double neto= salariobruto - retencion;
+		System.out.println("El salario bruto es de: $"+(int)salariobruto);
+		System.out.println("La Retencion en la fuente es de: $"+(int)retencion);
+		System.out.println("El salario neto es de: $"+(int)neto);
+		
+	}
+
+}
 
