@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Primeraclase 
+{
+
+	public static void main(String[] args) 
+	{ 
+		//JUAN FELIPE MIRANDA ARCINIEGAS 1080042208 UNALMED
+		//ESTA EXPRESADO EN DOUBLE, POR SI LA PERSONA QUE VA A EJECUTAR EL NUMERO, DECIDE TESTEAR CON DECIMALES.
+		double x;
+		Scanner numero= new Scanner(System.in);
+		System.out.println("Ingrese cualquier numero:");
+		x=numero.nextDouble();
+		System.out.println("El cuadrado de "+x+" es: "+ Math.pow(x,2));
+		System.out.println("El cubo de " +x+ " es: "+ Math.pow(x,3));
+	}
+
+}
